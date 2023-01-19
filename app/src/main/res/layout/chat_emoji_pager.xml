@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:background="@color/attachStarter" android:layout_width="match_parent" android:layout_height="wrap_content"
+    tools:ignore="MissingClass">
+    <View android:background="@color/chipBorder" android:layout_width="match_parent" android:layout_height="1dp" android:alpha="0.5"/>
+    <GridView android:gravity="center"  android:id="@+id/grid_view" android:paddingTop="20dp" android:layout_width="match_parent" android:layout_height="200dp" android:horizontalSpacing="20dp" android:verticalSpacing="20dp" android:stretchMode="columnWidth" android:columnWidth="40dp" android:numColumns="auto_fit" android:layout_weight="1" android:paddingStart="20dp" android:paddingEnd="20dp"/>
+<!--    <androidx.viewpager.widget.ViewPager android:id="@+id/pager" android:layout_width="match_parent" android:layout_height="200dp"/>-->
+    <com.vchatcloud.androidsample.viewpagerindicator.CirclePageIndicator android:id="@+id/indicator" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20dp"/>
+    <View android:background="@color/chipBorder" android:layout_width="match_parent" android:layout_height="1dp" android:alpha="0.3"/>
+    <LinearLayout android:orientation="horizontal" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <HorizontalScrollView android:scrollbars="none" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <RadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/emojiGroup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="50dp">
+                <RadioButton android:id="@+id/emoji1" android:checked="true"  android:layout_width="40dp" android:layout_height="40dp" android:button="@drawable/emo01_bg" android:layout_marginStart="12dp" android:layout_marginEnd="6dp"/>
+                <RadioButton android:id="@+id/emoji2" android:checked="false" android:layout_width="40dp" android:layout_height="40dp" android:button="@drawable/emo02_bg"  android:layout_marginStart="12dp" android:layout_marginEnd="6dp"/>
+                <RadioButton android:id="@+id/emoji3" android:checked="false" android:layout_width="40dp" android:layout_height="40dp" android:button="@drawable/emo03_bg"  android:layout_marginStart="12dp" android:layout_marginEnd="6dp"/>
+                <RadioButton android:id="@+id/emoji4" android:checked="false" android:layout_width="40dp" android:layout_height="40dp" android:button="@drawable/emo04_bg"  android:layout_marginStart="12dp" android:layout_marginEnd="6dp"/>
+                <RadioButton android:id="@+id/emoji5" android:checked="false" android:layout_width="40dp" android:layout_height="40dp" android:button="@drawable/emo05_bg"  android:layout_marginStart="12dp" android:layout_marginEnd="6dp"/>
+                <RadioButton android:id="@+id/emoji6" android:checked="false" android:layout_width="40dp" android:layout_height="40dp" android:button="@drawable/emo06_bg"  android:layout_marginStart="12dp" android:layout_marginEnd="6dp"/>
+                <RadioButton android:id="@+id/emoji7" android:checked="false" android:layout_width="40dp" android:layout_height="40dp" android:button="@drawable/emo07_bg"  android:layout_marginStart="12dp" android:layout_marginEnd="12dp"/>
+            </RadioGroup>
+        </HorizontalScrollView>
+    </LinearLayout>
+</LinearLayout>

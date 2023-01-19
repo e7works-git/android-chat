@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="?attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="3dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:gravity="center_vertical">
+
+    <!-- 채팅 레이어 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <!-- 아이콘 영역 -->
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/chat_icon_backgroud">
+            <!-- 아이콘 이미지 -->
+            <ImageView
+                android:id="@+id/text_open_chat_icon"
+                android:src="@drawable/profile_img_1"
+                android:background="@drawable/chat_icon_backgroud"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <!-- 채팅 메시지 영역 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- 닉네임 -->
+            <TextView
+                android:id="@+id/text_open_chat_nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="NickName"
+                android:textColor="#3a414d"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <!-- 채팅 영역 -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <!-- 좌측 화살표 -->
+                <ImageView
+                    android:id="@+id/left_arror_img"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/chat_left_arrow" />
+
+                <!-- 이미지 레이어 -->
+                <LinearLayout
+                    android:id="@+id/text_open_image_layout"
+                    android:visibility="gone"
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@drawable/chat_backgroud">
+                    <ImageView
+                        android:layout_margin="10dp"
+                        android:id="@+id/text_open_image"
+                        android:scaleType="centerInside"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minWidth="150dp"
+                        android:minHeight="150dp"
+                        android:maxWidth="270dp"
+                        android:maxHeight="390dp"
+                        android:src="@drawable/ic_baseline_image_24" />
+                </LinearLayout>
+
+                <!-- 비디오 레이어 -->
+                <LinearLayout
+                    android:id="@+id/text_open_video_layout"
+                    android:visibility="gone"
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:maxHeight="400dp"
+                    android:gravity="center"
+                    android:background="@drawable/chat_backgroud"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+                        <VideoView
+                            android:layout_margin="10dp"
+                            android:id="@+id/text_open_video"
+                            android:scaleType="centerInside"
+                            android:minWidth="270dp"
+                            android:layout_centerVertical="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:maxHeight="400dp"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/ic_baseline_image_24" />
+
+                        <ImageView
+                            android:id="@+id/text_open_pause_icon"
+                            android:src="@drawable/ic_baseline_pause_circle_outline_24"
+                            android:layout_gravity="center"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp" />
+                    </FrameLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginBottom="5dp"
+                        android:layout_gravity="bottom"
+                        android:layout_height="30dp"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="15">
+                                <SeekBar
+                                    android:id="@+id/text_open_seekbar"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="100">
+                                <ImageView
+                                    android:id="@+id/text_open_video_fullscreen"
+                                    android:scaleType="center"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center_horizontal"
+                                    android:src="@drawable/ic_baseline_fullscreen_24" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- 오디오 레이어 -->
+                <LinearLayout
+                    android:id="@+id/text_open_audio_layout"
+                    android:visibility="gone"
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:maxHeight="400dp"
+                    android:gravity="center"
+                    android:background="@drawable/chat_backgroud">
+                    <VideoView
+                        android:layout_margin="10dp"
+                        android:id="@+id/text_open_audio"
+                        android:scaleType="centerInside"
+                        android:minWidth="270dp"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxHeight="400dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/ic_baseline_image_24" />
+                </LinearLayout>
+
+                <!-- 파일 레이어 -->
+                <LinearLayout
+                    android:id="@+id/text_open_file_layout"
+                    android:visibility="gone"
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:maxHeight="400dp"
+                    android:gravity="center"
+                    android:background="@drawable/chat_backgroud">
+                    <VideoView
+                        android:layout_margin="10dp"
+                        android:id="@+id/text_open_file"
+                        android:scaleType="centerInside"
+                        android:minWidth="270dp"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxHeight="400dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/ic_baseline_image_24" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <!-- 메시지 입력 시간 -->
+            <TextView
+                android:id="@+id/text_open_chat_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:layout_alignBaseline="@id/text_open_file"
+                android:layout_marginLeft="9dp"
+                android:layout_toRightOf="@id/text_open_file"
+                android:text="11:36"
+                android:textColor="#bebed1"
+                android:textSize="10dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

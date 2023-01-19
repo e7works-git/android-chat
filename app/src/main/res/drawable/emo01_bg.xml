@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:state_enabled="true" android:state_window_focused="false">
+        <layer-list>
+            <item android:width="40dp" android:height="40dp" android:drawable="@drawable/img__emoticon_emo01_emo01_ico_on"></item>
+        </layer-list>
+    </item>
+    <item android:state_checked="false" android:state_enabled="true" android:state_window_focused="false">
+        <layer-list>
+            <item android:width="40dp" android:height="40dp" android:drawable="@drawable/img__emoticon_emo01_emo01_ico_off"></item>
+        </layer-list>
+    </item>
+    <item android:state_checked="true" android:state_enabled="true" android:state_pressed="true">
+        <layer-list>
+            <item android:width="40dp" android:height="40dp" android:drawable="@drawable/img__emoticon_emo01_emo01_ico_on"></item>
+        </layer-list>
+    </item>
+    <item android:state_checked="false" android:state_enabled="true" android:state_pressed="true">
+        <layer-list>
+            <item android:width="40dp" android:height="40dp" android:drawable="@drawable/img__emoticon_emo01_emo01_ico_on"></item>
+        </layer-list>
+    </item>
+    <item android:state_checked="true" android:state_enabled="true" android:state_focused="true">
+        <layer-list>
+            <item android:width="40dp" android:height="40dp" android:drawable="@drawable/img__emoticon_emo01_emo01_ico_on"></item>
+        </layer-list>
+    </item>
+    <item android:state_checked="false" android:state_enabled="true" android:state_focused="true">
+        <layer-list>
+            <item android:width="40dp" android:height="40dp" android:drawable="@drawable/img__emoticon_emo01_emo01_ico_off"></item>
+        </layer-list>
+    </item>
+    <item android:state_checked="false" android:state_enabled="true">
+        <layer-list>
+            <item android:width="40dp" android:height="40dp" android:drawable="@drawable/img__emoticon_emo01_emo01_ico_off"></item>
+        </layer-list>
+    </item>
+    <item android:state_checked="true" android:state_enabled="true">
+        <layer-list>
+            <item android:width="40dp" android:height="40dp" android:drawable="@drawable/img__emoticon_emo01_emo01_ico_on"></item>
+        </layer-list>
+    </item>
+    <item android:state_checked="true" android:state_enabled="false" android:state_focused="true">
+        <layer-list>
+            <item android:width="40dp" android:height="40dp" android:drawable="@drawable/img__emoticon_emo01_emo01_ico_on"></item>
+        </layer-list>
+    </item>
+    <item android:state_checked="false" android:state_enabled="false" android:state_focused="true">
+        <layer-list>
+            <item android:width="40dp" android:height="40dp" android:drawable="@drawable/img__emoticon_emo01_emo01_ico_off"></item>
+        </layer-list>
+    </item>
+    <item android:state_checked="false" android:state_enabled="false">
+        <layer-list>
+            <item android:width="40dp" android:height="40dp" android:drawable="@drawable/img__emoticon_emo01_emo01_ico_off"></item>
+        </layer-list>
+    </item>
+    <item android:state_checked="true" android:state_enabled="false">
+        <layer-list>
+            <item android:width="40dp" android:height="40dp" android:drawable="@drawable/img__emoticon_emo01_emo01_ico_on"></item>
+        </layer-list>
+    </item>
+</selector>

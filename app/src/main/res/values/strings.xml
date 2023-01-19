@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">VChat Sample</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">Android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="channel_id">vchatcloud_sample_id</string>
+    <string name="channel_name">vchatcloud_sample</string>
+    <string name="channel_description">vchatcloud_sample_application</string>
+    <string name="imgLoaded">true</string>
+</resources>

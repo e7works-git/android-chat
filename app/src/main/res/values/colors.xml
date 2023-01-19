@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#2BC48A</color>
+    <color name="chatBackground">#e8f0f3</color>
+    <color name="notificationColor">#ffffff</color>
+    <color name="profileOnColor">#2BC48A</color>
+    <color name="profileOffColor">#efefef</color>
+
+    <color name="attachStarter">#e6e8ea</color>
+    <color name="chipBorder">#9ea8aa</color>
+
+    <color name="photo_preview_activity_bg">#1A1A1A</color>
+
+    <color name="videoPauseBackgroud">#00000090</color>
+</resources>
