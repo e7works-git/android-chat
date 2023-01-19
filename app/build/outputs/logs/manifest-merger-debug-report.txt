@@ -1,0 +1,435 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:2:1-53:12
+MERGED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:2:1-50:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\43b940c5c9925bf6ecd28fd5faac33b6\material-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\3e11cb02a1ff9e4edf91d2fe87252577\glide-4.11.0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\e342d2289707726ea393d29f37616815\constraintlayout-2.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:2:1-36:12
+MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\7ae449c41c9231621bd55a0eb00daf97\appcompat-1.4.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.5.2] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\a844c320ef8e20ddbc6592ef4861a846\fragment-1.5.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.5.1] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\1684e33929269a474b5adf7fe17a6362\activity-1.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\ddca6860c13ad76901e60a522b7e87d6\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [org.conscrypt:conscrypt-android:2.5.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\7eda519ebbd87456a23115795f850f7b\conscrypt-android-2.5.0\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\955c641847ba2df52afc323696906270\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\4c75c89f4ffb1f3b7adfa8a19a847bf8\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\c2e126e64d8240afd047b14fc60c8420\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\d1ace219a5de611e495ced905e43801d\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\e5bdc5dc70b1b3f0f188d26337417bb4\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.2.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\d8ad3dbcd93d647ee2ea8761503cb976\core-ktx-1.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\15cabb114fcbec80ad1fbfcd139fedd5\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\6b18b352e12b54764dff714d655ac6bf\transition-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\c1e9246662b24a2c741cb2dbd6337376\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\03de55cd3b85541956c669f0753d4212\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\cb428ffbc0fb416b750b7dca2623f77d\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\9e1400656dde34050f68e351b1adb264\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\be85214f917019de43899e8177fcfbd6\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\a4a6ef04467aeebd053038589415372b\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\c00845ff1947eb441ca75fd608c54cb0\appcompat-resources-1.4.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\e0f7e1181b012f461e709efb0904d118\emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\075a460972da7514c1e47c1112e423a1\emoji2-1.0.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\c1807b83e20b3adfd3db8cce93c89c78\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\0b38995c0fab965da32cc994b6ee50b2\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.8.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\2fd9fad0eb3c778bc48892e0f9709c59\core-1.8.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\7c12f710cbd33fbf4a6a992d5247ee4c\lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\daa896d4bc5377c4e6ad068679c7dcb5\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\8c5e93b8593dd3635399ffc40055232d\savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\b328a2790729f87413ea94772c27349b\startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\17c0c46afeb9803fb5676aba701c8c92\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\cfe82d0333090f309e608340f72a3919\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\4f8ead6c9f87a0c19d37e313d1957ccf\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\f11b55011152dbfee6328a02cfd97a46\gifdecoder-4.11.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\14d537716f6241e33488a7354c822251\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\87f7a73903353f6a3ab82474e28c7c46\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\de36d7bd66a49e6b3b2659a856c5ce41\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\2a2b013a9fb4863e4c576a14abc7e925\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\7194cec0324cb747da949ef28e1a4082\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\439b988da966db6f5d395be260ec97a8\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\7ef608349664ebdeebff624dc2137898\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\2b56a37d16f5353b4370aa1ca3465ddd\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\19c0edd68f1a2509ff77ed1e7606d154\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\3065d1f472c646978fd0944b9898fcac\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:2:1-53:12
+	package
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:4:5-43
+		INJECTED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml
+		INJECTED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:2:1-53:12
+		INJECTED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:2:1-53:12
+		INJECTED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:6:5-75
+MERGED from [com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:13:5-75
+MERGED from [com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:6:22-72
+uses-permission#android.permission.READ_PRIVILEGED_PHONE_STATE
+ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:7:5-9:47
+MERGED from [com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:14:5-16:47
+MERGED from [com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:14:5-16:47
+	tools:ignore
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:9:9-44
+	android:name
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:8:9-70
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:10:5-76
+MERGED from [com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:17:5-76
+MERGED from [com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:17:5-76
+	android:name
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:10:22-73
+uses-permission#android.permission.INTERNET
+ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:11:5-67
+MERGED from [com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:18:5-67
+MERGED from [com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:12:5-79
+MERGED from [com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:19:5-79
+MERGED from [com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:13:5-76
+MERGED from [com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:20:5-76
+MERGED from [com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:20:5-76
+	android:name
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:13:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:14:5-68
+MERGED from [com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:21:5-68
+MERGED from [com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:21:5-68
+	android:name
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:14:22-65
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:15:22-78
+uses-permission#android.permission.READ_USER_DICTIONARY
+ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:16:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:17:5-81
+MERGED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:10:5-81
+MERGED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:10:5-81
+MERGED from [com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:29:5-31:38
+MERGED from [com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:29:5-31:38
+	android:maxSdkVersion
+		ADDED from [com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:31:9-35
+	android:name
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:17:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:18:5-80
+MERGED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:9:5-80
+MERGED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:9:5-80
+MERGED from [com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:32:5-34:38
+MERGED from [com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:32:5-34:38
+	android:maxSdkVersion
+		ADDED from [com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:34:9-35
+	android:name
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:18:22-77
+application
+ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:21:5-51:19
+MERGED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:13:5-48:19
+MERGED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:13:5-48:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\43b940c5c9925bf6ecd28fd5faac33b6\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\43b940c5c9925bf6ecd28fd5faac33b6\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\3e11cb02a1ff9e4edf91d2fe87252577\glide-4.11.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\3e11cb02a1ff9e4edf91d2fe87252577\glide-4.11.0\AndroidManifest.xml:10:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\e342d2289707726ea393d29f37616815\constraintlayout-2.0.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\e342d2289707726ea393d29f37616815\constraintlayout-2.0.0\AndroidManifest.xml:9:5-20
+MERGED from [org.conscrypt:conscrypt-android:2.5.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\7eda519ebbd87456a23115795f850f7b\conscrypt-android-2.5.0\AndroidManifest.xml:11:5-20
+MERGED from [org.conscrypt:conscrypt-android:2.5.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\7eda519ebbd87456a23115795f850f7b\conscrypt-android-2.5.0\AndroidManifest.xml:11:5-20
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\075a460972da7514c1e47c1112e423a1\emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\075a460972da7514c1e47c1112e423a1\emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.8.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\2fd9fad0eb3c778bc48892e0f9709c59\core-1.8.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\2fd9fad0eb3c778bc48892e0f9709c59\core-1.8.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\7c12f710cbd33fbf4a6a992d5247ee4c\lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\7c12f710cbd33fbf4a6a992d5247ee4c\lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\b328a2790729f87413ea94772c27349b\startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\b328a2790729f87413ea94772c27349b\startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\cfe82d0333090f309e608340f72a3919\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\cfe82d0333090f309e608340f72a3919\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\f11b55011152dbfee6328a02cfd97a46\gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\f11b55011152dbfee6328a02cfd97a46\gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
+	android:requestLegacyExternalStorage
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:25:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.8.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\2fd9fad0eb3c778bc48892e0f9709c59\core-1.8.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:27:9-35
+	android:label
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:24:9-41
+	android:roundIcon
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:26:9-61
+	android:icon
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:23:9-56
+	android:allowBackup
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:22:9-35
+	android:theme
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:28:9-40
+activity#com.vchatcloud.androidsample.photoView.ViewPagerActivity
+ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:30:9-32:39
+	android:exported
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:32:13-36
+	android:name
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:31:13-56
+activity#com.vchatcloud.androidsample.LoadingActivity
+ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:33:9-35:54
+	android:theme
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:35:13-51
+	android:name
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:34:13-44
+activity#com.vchatcloud.androidsample.ChatActivity
+ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:36:9-39:47
+	android:launchMode
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:39:13-44
+	android:configChanges
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:38:13-59
+	android:name
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:37:13-41
+activity#com.vchatcloud.androidsample.MainActivity
+ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:40:9-50:20
+	android:screenOrientation
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:44:13-49
+	android:launchMode
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:43:13-43
+	android:exported
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:42:13-36
+	android:name
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:41:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:45:13-49:29
+action#android.intent.action.MAIN
+ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:46:17-69
+	android:name
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:46:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:48:17-77
+	android:name
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:48:27-74
+uses-sdk
+INJECTED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml
+INJECTED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml
+MERGED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:5:5-7:41
+MERGED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\43b940c5c9925bf6ecd28fd5faac33b6\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\43b940c5c9925bf6ecd28fd5faac33b6\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\3e11cb02a1ff9e4edf91d2fe87252577\glide-4.11.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\3e11cb02a1ff9e4edf91d2fe87252577\glide-4.11.0\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\e342d2289707726ea393d29f37616815\constraintlayout-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\e342d2289707726ea393d29f37616815\constraintlayout-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:8:5-10:41
+MERGED from [com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\7ae449c41c9231621bd55a0eb00daf97\appcompat-1.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\7ae449c41c9231621bd55a0eb00daf97\appcompat-1.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.2] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\a844c320ef8e20ddbc6592ef4861a846\fragment-1.5.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.2] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\a844c320ef8e20ddbc6592ef4861a846\fragment-1.5.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\1684e33929269a474b5adf7fe17a6362\activity-1.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\1684e33929269a474b5adf7fe17a6362\activity-1.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\ddca6860c13ad76901e60a522b7e87d6\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\ddca6860c13ad76901e60a522b7e87d6\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [org.conscrypt:conscrypt-android:2.5.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\7eda519ebbd87456a23115795f850f7b\conscrypt-android-2.5.0\AndroidManifest.xml:7:5-9:41
+MERGED from [org.conscrypt:conscrypt-android:2.5.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\7eda519ebbd87456a23115795f850f7b\conscrypt-android-2.5.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\955c641847ba2df52afc323696906270\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\955c641847ba2df52afc323696906270\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\4c75c89f4ffb1f3b7adfa8a19a847bf8\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\4c75c89f4ffb1f3b7adfa8a19a847bf8\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\c2e126e64d8240afd047b14fc60c8420\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\c2e126e64d8240afd047b14fc60c8420\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\d1ace219a5de611e495ced905e43801d\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\d1ace219a5de611e495ced905e43801d\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\e5bdc5dc70b1b3f0f188d26337417bb4\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\e5bdc5dc70b1b3f0f188d26337417bb4\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.2.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\d8ad3dbcd93d647ee2ea8761503cb976\core-ktx-1.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.2.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\d8ad3dbcd93d647ee2ea8761503cb976\core-ktx-1.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\15cabb114fcbec80ad1fbfcd139fedd5\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\15cabb114fcbec80ad1fbfcd139fedd5\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\6b18b352e12b54764dff714d655ac6bf\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\6b18b352e12b54764dff714d655ac6bf\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\c1e9246662b24a2c741cb2dbd6337376\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\c1e9246662b24a2c741cb2dbd6337376\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\03de55cd3b85541956c669f0753d4212\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\03de55cd3b85541956c669f0753d4212\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\cb428ffbc0fb416b750b7dca2623f77d\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\cb428ffbc0fb416b750b7dca2623f77d\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\9e1400656dde34050f68e351b1adb264\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\9e1400656dde34050f68e351b1adb264\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\be85214f917019de43899e8177fcfbd6\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\be85214f917019de43899e8177fcfbd6\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\a4a6ef04467aeebd053038589415372b\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\a4a6ef04467aeebd053038589415372b\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\c00845ff1947eb441ca75fd608c54cb0\appcompat-resources-1.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\c00845ff1947eb441ca75fd608c54cb0\appcompat-resources-1.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\e0f7e1181b012f461e709efb0904d118\emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\e0f7e1181b012f461e709efb0904d118\emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\075a460972da7514c1e47c1112e423a1\emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\075a460972da7514c1e47c1112e423a1\emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\c1807b83e20b3adfd3db8cce93c89c78\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\c1807b83e20b3adfd3db8cce93c89c78\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\0b38995c0fab965da32cc994b6ee50b2\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\0b38995c0fab965da32cc994b6ee50b2\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\2fd9fad0eb3c778bc48892e0f9709c59\core-1.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\2fd9fad0eb3c778bc48892e0f9709c59\core-1.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\7c12f710cbd33fbf4a6a992d5247ee4c\lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\7c12f710cbd33fbf4a6a992d5247ee4c\lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\daa896d4bc5377c4e6ad068679c7dcb5\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\daa896d4bc5377c4e6ad068679c7dcb5\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\8c5e93b8593dd3635399ffc40055232d\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\8c5e93b8593dd3635399ffc40055232d\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\b328a2790729f87413ea94772c27349b\startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\b328a2790729f87413ea94772c27349b\startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\17c0c46afeb9803fb5676aba701c8c92\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\17c0c46afeb9803fb5676aba701c8c92\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\cfe82d0333090f309e608340f72a3919\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\cfe82d0333090f309e608340f72a3919\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\4f8ead6c9f87a0c19d37e313d1957ccf\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\4f8ead6c9f87a0c19d37e313d1957ccf\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\f11b55011152dbfee6328a02cfd97a46\gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\f11b55011152dbfee6328a02cfd97a46\gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\14d537716f6241e33488a7354c822251\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\14d537716f6241e33488a7354c822251\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\87f7a73903353f6a3ab82474e28c7c46\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\87f7a73903353f6a3ab82474e28c7c46\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\de36d7bd66a49e6b3b2659a856c5ce41\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\de36d7bd66a49e6b3b2659a856c5ce41\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\2a2b013a9fb4863e4c576a14abc7e925\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\2a2b013a9fb4863e4c576a14abc7e925\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\7194cec0324cb747da949ef28e1a4082\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\7194cec0324cb747da949ef28e1a4082\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\439b988da966db6f5d395be260ec97a8\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\439b988da966db6f5d395be260ec97a8\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\7ef608349664ebdeebff624dc2137898\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\7ef608349664ebdeebff624dc2137898\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\2b56a37d16f5353b4370aa1ca3465ddd\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\2b56a37d16f5353b4370aa1ca3465ddd\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\19c0edd68f1a2509ff77ed1e7606d154\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\19c0edd68f1a2509ff77ed1e7606d154\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\3065d1f472c646978fd0944b9898fcac\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\3065d1f472c646978fd0944b9898fcac\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml
+INJECTED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml
+		INJECTED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml
+		ADDED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml
+		INJECTED from D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:11:5-65
+MERGED from [com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:12:5-65
+MERGED from [com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:12:5-65
+	android:name
+		ADDED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:11:22-62
+activity#cn.bingoogolapple.photopicker.activity.BGAPhotoPreviewActivity
+ADDED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:16:9-21:63
+	android:screenOrientation
+		ADDED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:19:13-49
+	android:windowSoftInputMode
+		ADDED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:21:13-60
+	android:configChanges
+		ADDED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:18:13-74
+	android:theme
+		ADDED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:20:13-46
+	android:name
+		ADDED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:17:13-90
+activity#cn.bingoogolapple.photopicker.activity.BGAPhotoPickerActivity
+ADDED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:24:9-29:63
+	android:screenOrientation
+		ADDED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:27:13-49
+	android:windowSoftInputMode
+		ADDED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:29:13-60
+	android:configChanges
+		ADDED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:26:13-74
+	android:theme
+		ADDED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:28:13-46
+	android:name
+		ADDED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:25:13-89
+activity#cn.bingoogolapple.photopicker.activity.BGAPhotoPickerPreviewActivity
+ADDED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:32:9-37:63
+	android:screenOrientation
+		ADDED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:35:13-49
+	android:windowSoftInputMode
+		ADDED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:37:13-60
+	android:configChanges
+		ADDED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:34:13-74
+	android:theme
+		ADDED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:36:13-46
+	android:name
+		ADDED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:33:13-96
+provider#cn.bingoogolapple.photopicker.util.BGAPhotoFileProvider
+ADDED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:39:9-47:20
+	android:grantUriPermissions
+		ADDED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:43:13-47
+	android:authorities
+		ADDED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:41:13-82
+	android:exported
+		ADDED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:40:13-83
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:44:13-46:71
+	android:resource
+		ADDED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:46:17-68
+	android:name
+		ADDED from [BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:45:17-67
+uses-permission#android.permission.BLUETOOTH
+ADDED from [com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:22:5-24:38
+	android:maxSdkVersion
+		ADDED from [com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:24:9-35
+	android:name
+		ADDED from [com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:23:9-52
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from [com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:25:5-27:38
+	android:maxSdkVersion
+		ADDED from [com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:27:9-35
+	android:name
+		ADDED from [com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:26:9-58
+uses-permission#android.permission.BLUETOOTH_ADVERTISE
+ADDED from [com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:28:5-78
+	android:name
+		ADDED from [com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:28:22-75
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\075a460972da7514c1e47c1112e423a1\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\7c12f710cbd33fbf4a6a992d5247ee4c\lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\7c12f710cbd33fbf4a6a992d5247ee4c\lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\b328a2790729f87413ea94772c27349b\startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\b328a2790729f87413ea94772c27349b\startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\075a460972da7514c1e47c1112e423a1\emoji2-1.0.0\AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\075a460972da7514c1e47c1112e423a1\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\075a460972da7514c1e47c1112e423a1\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\075a460972da7514c1e47c1112e423a1\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\075a460972da7514c1e47c1112e423a1\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\075a460972da7514c1e47c1112e423a1\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\075a460972da7514c1e47c1112e423a1\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\7c12f710cbd33fbf4a6a992d5247ee4c\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\7c12f710cbd33fbf4a6a992d5247ee4c\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\7c12f710cbd33fbf4a6a992d5247ee4c\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78

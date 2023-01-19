@@ -1,0 +1,214 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.vchatcloud.androidsample"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+11-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:6:5-75
+11-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:6:22-72
+12    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+12-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:7:5-9:47
+12-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:8:9-70
+13    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+13-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:10:5-76
+13-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:10:22-73
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:11:5-67
+14-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:11:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:12:5-79
+15-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:12:22-76
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:13:5-76
+16-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:13:22-73
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:14:5-68
+17-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:14:22-65
+18    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+18-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:15:5-81
+18-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:15:22-78
+19    <uses-permission android:name="android.permission.READ_USER_DICTIONARY" />
+19-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:16:5-79
+19-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:16:22-76
+20    <uses-permission
+20-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:17:5-81
+21        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+21-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:17:22-78
+22        android:maxSdkVersion="18" />
+22-->[com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:31:9-35
+23    <uses-permission
+23-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:18:5-80
+24        android:name="android.permission.READ_EXTERNAL_STORAGE"
+24-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:18:22-77
+25        android:maxSdkVersion="18" />
+25-->[com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:34:9-35
+26    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+26-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:18:5-80
+26-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:18:22-77
+27    <uses-permission android:name="android.permission.CAMERA" />
+27-->[BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:11:5-65
+27-->[BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:11:22-62
+28    <uses-permission
+28-->[com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:22:5-24:38
+29        android:name="android.permission.BLUETOOTH"
+29-->[com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:23:9-52
+30        android:maxSdkVersion="30" />
+30-->[com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:24:9-35
+31    <uses-permission
+31-->[com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:25:5-27:38
+32        android:name="android.permission.BLUETOOTH_ADMIN"
+32-->[com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:26:9-58
+33        android:maxSdkVersion="30" />
+33-->[com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:27:9-35
+34    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+34-->[com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:28:5-78
+34-->[com.vchatcloud.sdk:vchatcloud-android-sdk:0.0.6] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\eea65c9100f21fbd2520013417c27e82\vchatcloud-android-sdk-0.0.6\AndroidManifest.xml:28:22-75
+35
+36    <application
+36-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:21:5-51:19
+37        android:allowBackup="true"
+37-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:22:9-35
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.8.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\2fd9fad0eb3c778bc48892e0f9709c59\core-1.8.0\AndroidManifest.xml:24:18-86
+39        android:debuggable="true"
+40        android:extractNativeLibs="false"
+41        android:icon="@drawable/ic_vchatcloud_app_logo"
+41-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:23:9-56
+42        android:label="@string/app_name"
+42-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:24:9-41
+43        android:requestLegacyExternalStorage="true"
+43-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:25:9-52
+44        android:roundIcon="@drawable/ic_vchatcloud_app_logo"
+44-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:26:9-61
+45        android:supportsRtl="true"
+45-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:27:9-35
+46        android:testOnly="true"
+47        android:theme="@style/AppTheme" >
+47-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:28:9-40
+48        <activity
+48-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:30:9-32:39
+49            android:name="com.vchatcloud.androidsample.photoView.ViewPagerActivity"
+49-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:31:13-56
+50            android:exported="true" />
+50-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:32:13-36
+51        <activity
+51-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:33:9-35:54
+52            android:name="com.vchatcloud.androidsample.LoadingActivity"
+52-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:34:13-44
+53            android:theme="@style/FullScreenTheme" />
+53-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:35:13-51
+54        <activity
+54-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:36:9-39:47
+55            android:name="com.vchatcloud.androidsample.ChatActivity"
+55-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:37:13-41
+56            android:configChanges="orientation|screenSize"
+56-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:38:13-59
+57            android:launchMode="singleTask" />
+57-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:39:13-44
+58        <activity
+58-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:40:9-50:20
+59            android:name="com.vchatcloud.androidsample.MainActivity"
+59-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:41:13-41
+60            android:exported="true"
+60-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:42:13-36
+61            android:launchMode="singleTop"
+61-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:43:13-43
+62            android:screenOrientation="portrait" >
+62-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:44:13-49
+63            <intent-filter>
+63-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:45:13-49:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:46:17-69
+64-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:46:25-66
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:48:17-77
+66-->D:\sts-4.2.2.RELEASE-lite\git\androidsample\app\src\main\AndroidManifest.xml:48:27-74
+67            </intent-filter>
+68        </activity>
+69        <!-- 图片预览界面 -->
+70        <activity
+70-->[BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:16:9-21:63
+71            android:name="cn.bingoogolapple.photopicker.activity.BGAPhotoPreviewActivity"
+71-->[BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:17:13-90
+72            android:configChanges="keyboardHidden|orientation|screenSize"
+72-->[BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:18:13-74
+73            android:screenOrientation="portrait"
+73-->[BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:19:13-49
+74            android:theme="@style/BGAPPTheme"
+74-->[BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:20:13-46
+75            android:windowSoftInputMode="stateAlwaysHidden" /> <!-- 图片选择界面 -->
+75-->[BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:21:13-60
+76        <activity
+76-->[BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:24:9-29:63
+77            android:name="cn.bingoogolapple.photopicker.activity.BGAPhotoPickerActivity"
+77-->[BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:25:13-89
+78            android:configChanges="keyboardHidden|orientation|screenSize"
+78-->[BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:26:13-74
+79            android:screenOrientation="portrait"
+79-->[BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:27:13-49
+80            android:theme="@style/BGAPPTheme"
+80-->[BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:28:13-46
+81            android:windowSoftInputMode="stateAlwaysHidden" /> <!-- 图片选择预览界面 -->
+81-->[BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:29:13-60
+82        <activity
+82-->[BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:32:9-37:63
+83            android:name="cn.bingoogolapple.photopicker.activity.BGAPhotoPickerPreviewActivity"
+83-->[BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:33:13-96
+84            android:configChanges="keyboardHidden|orientation|screenSize"
+84-->[BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:34:13-74
+85            android:screenOrientation="portrait"
+85-->[BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:35:13-49
+86            android:theme="@style/BGAPPTheme"
+86-->[BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:36:13-46
+87            android:windowSoftInputMode="stateAlwaysHidden" />
+87-->[BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:37:13-60
+88
+89        <provider
+89-->[BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:39:9-47:20
+90            android:name="cn.bingoogolapple.photopicker.util.BGAPhotoFileProvider"
+90-->[BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:40:13-83
+91            android:authorities="com.vchatcloud.androidsample.bga_photo_picker.file_provider"
+91-->[BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:41:13-82
+92            android:exported="false"
+92-->[BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:42:13-37
+93            android:grantUriPermissions="true" >
+93-->[BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:43:13-47
+94            <meta-data
+94-->[BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:44:13-46:71
+95                android:name="android.support.FILE_PROVIDER_PATHS"
+95-->[BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:45:17-67
+96                android:resource="@xml/bga_photo_picker_file_paths" />
+96-->[BGAPhotoPicker.aar] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\881104a0e5ac988f83b6509e4bf4172b\BGAPhotoPicker\AndroidManifest.xml:46:17-68
+97        </provider>
+98        <provider
+98-->[androidx.emoji2:emoji2:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\075a460972da7514c1e47c1112e423a1\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+99            android:name="androidx.startup.InitializationProvider"
+99-->[androidx.emoji2:emoji2:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\075a460972da7514c1e47c1112e423a1\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+100            android:authorities="com.vchatcloud.androidsample.androidx-startup"
+100-->[androidx.emoji2:emoji2:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\075a460972da7514c1e47c1112e423a1\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+101            android:exported="false" >
+101-->[androidx.emoji2:emoji2:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\075a460972da7514c1e47c1112e423a1\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+102            <meta-data
+102-->[androidx.emoji2:emoji2:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\075a460972da7514c1e47c1112e423a1\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+103                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+103-->[androidx.emoji2:emoji2:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\075a460972da7514c1e47c1112e423a1\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+104                android:value="androidx.startup" />
+104-->[androidx.emoji2:emoji2:1.0.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\075a460972da7514c1e47c1112e423a1\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+105            <meta-data
+105-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\7c12f710cbd33fbf4a6a992d5247ee4c\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+106                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+106-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\7c12f710cbd33fbf4a6a992d5247ee4c\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+107                android:value="androidx.startup" />
+107-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\e7works\.gradle\caches\transforms-2\files-2.1\7c12f710cbd33fbf4a6a992d5247ee4c\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+108        </provider>
+109    </application>
+110
+111</manifest>
