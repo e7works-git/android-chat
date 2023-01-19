@@ -14,7 +14,7 @@ Android 용으로 만들어진 샘플코드 입니다.
 ### 요건
 
  - 안드로이드 스튜디오
- - Android 8.0(API 레벨 28) 이상
+ - Android 9.0(API 레벨 28) 이상
  - Java 8 이상
  - Androidx 사용
  - Android Gradle 플러그인 4.0.0 이상
@@ -26,7 +26,7 @@ Android 용으로 만들어진 샘플코드 입니다.
 2. [*Select a Project Template*]창에서 [*Empty Activity*]를 선택하고 [*Next*]을 클릭합니다.
 3. [*Configure your project*]창의 [*Name*]필드에 프로젝트명을 입력합니다.
 4. **Language** 드롭다운 메뉴에서 언어를 **Java** 또는 **Kotlin**로 선택합니다.
-5. 'Androidx 사용'을 활성화합니다.* " 」
+5. 'Androidx 사용'을 활성화합니다.
 6. 최소 API 레벨을 28 이상으로 선택합니다.
 
 ### Android 용 sdk 적용
