@@ -469,49 +469,42 @@ public class ChatActivity extends AppCompatActivity {
         });
 
         channel.setHandler(new MessageHandler() {
-
-            public void onNotifyLeaveUser(JSONObject data) {
-                System.err.println(data);
+            public void onNotifyLeaveUser(JSONObject data) { // 접속 해제 이벤트
                 Message msg = new Message(data);
                 msg.setType("leave");
                 msg.setMessage(msg.getNickName() + " 님이 나가셨습니다.");
                 messageExposure(msg, false);
-
             }
-            public void onNotifyMessage(JSONObject data) {
-                System.err.println(data);
+            public void onNotifyMessage(JSONObject data) { // 메시지 이벤트
                 Message msg = new Message(data);
                 msg.setType("msg");
 
                 messageExposure(msg, false);
             }
 
-            public void onNotifyWhisper(JSONObject data) {
-                System.err.println(data);
+            public void onNotifyWhisper(JSONObject data) { // 귓속말 이벤트
+                Log.d("이벤트 수신", data.toJSONString());
                 Message msg = new Message(data);
                 msg.setType("whisper");
 
                 messageExposure(msg, false);
             }
 
-            public void onNotifyNotice(JSONObject data) {
-                System.err.println(data);
+            public void onNotifyNotice(JSONObject data) { // 공지 이벤트
                 Message msg = new Message(data);
                 msg.setType("notice");
 
                 messageExposure(msg, false);
             }
 
-            public void onNotifyCustom(JSONObject data) {
-                System.err.println(data);
+            public void onNotifyCustom(JSONObject data) { // 커스텀 이벤트
                 Message msg = new Message(data);
                 msg.setType("custom");
 
                 messageExposure(msg, false);
             }
 
-            public void onNotifyJoinUser(JSONObject data) {
-                System.err.println(data);
+            public void onNotifyJoinUser(JSONObject data) { // 접속 이벤트
                 Message msg = new Message(data);
                 if (!nick_name.equalsIgnoreCase(msg.getNickName())) {
                     msg.setType("join");
@@ -519,17 +512,15 @@ public class ChatActivity extends AppCompatActivity {
                     messageExposure(msg, false);
                 }
             }
-
             public void onPersonalWhisper(JSONObject data) {
-                System.err.println(data);
+                Log.d("여기가 들어오나", "!!!");
                 Message msg = new Message(data);
                 msg.setType("preWhisper");
 
                 messageExposure(msg, false);
             }
 
-            public void onPersonalKickUser(JSONObject data) {
-                System.err.println(data);
+            public void onPersonalKickUser(JSONObject data) { //
                 Message msg = new Message(data);
                 msg.setType("preKick");
 
@@ -537,7 +528,6 @@ public class ChatActivity extends AppCompatActivity {
             }
 
             public void onPersonalUnkickUser(JSONObject data) {
-                System.err.println(data);
                 Message msg = new Message(data);
                 msg.setType("preUnKick");
 
@@ -545,7 +535,6 @@ public class ChatActivity extends AppCompatActivity {
             }
 
             public void onPersonalMuteUser(JSONObject data) {
-                System.err.println(data);
                 Message msg = new Message(data);
                 msg.setType("preMute");
 
@@ -553,7 +542,6 @@ public class ChatActivity extends AppCompatActivity {
             }
 
             public void onPersonalUnmuteUser(JSONObject data) {
-                System.err.println(data);
                 Message msg = new Message(data);
                 msg.setType("perUnMute");
 
@@ -561,7 +549,6 @@ public class ChatActivity extends AppCompatActivity {
             }
 
             public void onPersonalDuplicateUser(JSONObject data) {
-                System.err.println(data);
                 Message msg = new Message(data);
                 msg.setType("duplicate");
 
@@ -569,7 +556,6 @@ public class ChatActivity extends AppCompatActivity {
             }
 
             public void onNotifyKickUser(JSONObject data) {
-                System.err.println(data);
                 Message msg = new Message(data);
                 msg.setType("kick");
 
@@ -577,7 +563,6 @@ public class ChatActivity extends AppCompatActivity {
             }
 
             public void onNotifyUnkickUser(JSONObject data) {
-                System.err.println(data);
                 Message msg = new Message(data);
                 msg.setType("unKick");
 
@@ -585,7 +570,6 @@ public class ChatActivity extends AppCompatActivity {
             }
 
             public void onNotifyMuteUser(JSONObject data) {
-                System.err.println(data);
                 Message msg = new Message(data);
                 msg.setType("mute");
 
@@ -593,7 +577,6 @@ public class ChatActivity extends AppCompatActivity {
             }
 
             public void onNotifyUnmuteUser(JSONObject data) {
-                System.err.println(data);
                 Message msg = new Message(data);
                 msg.setType("unMute");
 
@@ -649,7 +632,7 @@ public class ChatActivity extends AppCompatActivity {
 
     public void messageExposure(Message message, final boolean sendScroll) {
         int profile_index = 0;
-        if (ChatActivity.notificationFlag && message.getMimeType().equalsIgnoreCase("text")) {
+        if (ChatActivity.notificationFlag && (message.getMimeType().equalsIgnoreCase("text"))) {
             ++msgId;
 //            PushCallDisplay();
             NotificationCompat.Builder builder = null;
@@ -842,14 +825,15 @@ public class ChatActivity extends AppCompatActivity {
                 ad.setPositiveButton("전송", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        Log.v(TAG, "Yes Btn Click");
+                        Log.d(TAG, "Yes Btn Click");
 
                         // Text 값 받아서 로그 남기기
                         String value = et.getText().toString();
-                        Log.v(TAG, value);
+                        Log.d(TAG, value);
                         JSONObject json = new JSONObject();
                         json.put("receivedClientKey", message.getClientKey());
                         json.put("message", value);
+                        json.put("mimeType", "text");
                         channel.sendWhisper(json,  new ChannelCallback() {
                             @Override
                             public void callback(Object o, VChatCloudException e) {
@@ -866,7 +850,7 @@ public class ChatActivity extends AppCompatActivity {
                 ad.setNegativeButton("취소", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        Log.v(TAG,"No Btn Click");
+                        Log.d(TAG,"No Btn Click");
                         dialog.dismiss();     //닫기
                         // Event
                     }

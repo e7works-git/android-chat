@@ -43,7 +43,7 @@
                 android:layout_marginLeft="15dp"
                 android:text="NickName"
                 android:textColor="#3a414d"
-                android:textSize="14dp"
+                android:textSize="14sp"
                 android:textStyle="bold" />
 
             <!-- 채팅 영역 -->

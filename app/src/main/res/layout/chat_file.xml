@@ -43,7 +43,7 @@
                 android:layout_marginLeft="15dp"
                 android:text="NickName"
                 android:textColor="#3a414d"
-                android:textSize="14dp"
+                android:textSize="14sp"
                 android:textStyle="bold" />
 
             <!-- 채팅 영역 -->
@@ -212,7 +212,7 @@
                 android:layout_toRightOf="@id/text_open_file"
                 android:text="11:36"
                 android:textColor="#bebed1"
-                android:textSize="10dp" />
+                android:textSize="10sp" />
 
         </LinearLayout>
     </LinearLayout>

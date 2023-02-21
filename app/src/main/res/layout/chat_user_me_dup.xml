@@ -43,7 +43,7 @@
                     android:layout_marginRight="9dp"
                     android:text="11:36"
                     android:textColor="#bebed1"
-                    android:textSize="10dp" />
+                    android:textSize="10sp" />
                 <!-- 메시지 레이어 -->
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -61,7 +61,7 @@
                         android:maxWidth="200dp"
                         android:text="Message"
                         android:textColor="#47505d"
-                        android:textSize="14dp" />
+                        android:textSize="14sp" />
                 </LinearLayout>
                 <!-- 좌측 화살표 -->
                 <ImageView

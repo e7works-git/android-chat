@@ -182,6 +182,8 @@ public class ChatListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
                         return VIEW_TYPE_USER_FILE;
                     }
                 case "msg":
+                case "whisper":
+                case "preWhisper":
                     if (ChatActivity.deviceUuid.equalsIgnoreCase($Message.getClientKey())) {
                         if ($MessageList.size() > 1 && position > 1) {
                             if ($MessageList.get(position).getClientKey().equalsIgnoreCase($MessageList.get(position - 1).getClientKey())) {
