@@ -17,7 +17,7 @@
     </style>
 
     <style name="AppTheme.ButtonStyle" parent="ThemeOverlay.AppCompat">
-        <item name="colorAccent">#4B19D3</item>
+        <item name="colorAccent">@color/colorPrimary</item>
         <item name="android:clickable">true</item>
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">#ffffff</item>

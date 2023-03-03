@@ -1,9 +1,12 @@
 package com.vchatcloud.androidsample.resourse;
 
+import android.util.Log;
+import android.widget.Toast;
+
 import com.vchatcloud.androidsample.R;
 
 public class ProfileRescource {
-    // 내부 아이콘 리소스
+    private static int index = 0;
     public static int[] profiles = new int[] {
             R.drawable.profile_img_1
             ,R.drawable.profile_img_2
@@ -54,4 +57,41 @@ public class ProfileRescource {
             ,R.drawable.profile_img_47
             ,R.drawable.profile_img_48
     };
+    public static void setIndex(int _index) {
+        if (_index < 0) {
+            index = 0;
+        } else if (_index > indexSize()) {
+            index = indexSize();
+        } else {
+            index = _index;
+        }
+    }
+    public static int getIndex() {
+        return index + 1;
+    }
+    public static int getProfile() {
+        return profiles[index];
+    }
+    public static int getSize() {
+        return profiles.length;
+    }
+    public static int indexSize() {
+        return getSize() -1;
+    }
+
+    public static int setLeft() {
+        index = index - 1;
+        if (index < 0) {
+            index = indexSize();
+        }
+
+        return profiles[index];
+    }
+    public static int setRight() {
+        index = index + 1;
+        if (index > indexSize() ) {
+            index = 0;
+        }
+        return profiles[index];
+    }
 }

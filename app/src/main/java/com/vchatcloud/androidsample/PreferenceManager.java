@@ -12,6 +12,12 @@ public class PreferenceManager {
     }
 
     // 셋
+    public static void setInt(Context context, String key, int value) {
+        SharedPreferences prefs = getPreferences(context);
+        SharedPreferences.Editor editor = prefs.edit();
+        editor.putInt(key, value);
+        editor.commit();
+    }
     public static void setString(Context context, String key, String value) {
         SharedPreferences prefs = getPreferences(context);
         SharedPreferences.Editor editor = prefs.edit();
@@ -23,6 +29,12 @@ public class PreferenceManager {
     public static String getString(Context context, String key) {
         SharedPreferences prefs = getPreferences(context);
         String value = prefs.getString(key, "");
+        return value;
+    }
+
+    public static int getInt(Context context, String key) {
+        SharedPreferences prefs = getPreferences(context);
+        int value = prefs.getInt(key, 0);
         return value;
     }
 }

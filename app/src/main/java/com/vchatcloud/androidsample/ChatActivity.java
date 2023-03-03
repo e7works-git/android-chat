@@ -60,6 +60,7 @@ import com.vchatcloud.android.manager.SocketManager;
 import com.vchatcloud.androidsample.adapter.ChatListAdapter;
 import com.vchatcloud.androidsample.fragment.EmojiFragment;
 import com.vchatcloud.androidsample.resourse.Constant;
+import com.vchatcloud.androidsample.resourse.ProfileRescource;
 
 import org.conscrypt.Conscrypt;
 import org.json.simple.JSONArray;
@@ -126,6 +127,31 @@ public class ChatActivity extends AppCompatActivity {
         }
     };
 
+
+//    @Override
+//    public boolean dispatchTouchEvent(MotionEvent ev) { // 키보드 자동으로 내려주는 함수
+//        View view = getCurrentFocus();
+//        if (view != null && (ev.getAction() == MotionEvent.ACTION_UP || ev.getAction() == MotionEvent.ACTION_MOVE) && view instanceof EditText && !view.getClass().getName().startsWith("android.webkit.")) {
+//            int scrcoords[] = new int[2];
+//            view.getLocationOnScreen(scrcoords);
+//            float x = ev.getRawX() + view.getLeft() - scrcoords[0];
+//            float y = ev.getRawY() + view.getTop() - scrcoords[1];
+//            if (x < view.getLeft() || x > view.getRight() || y < view.getTop() || y > view.getBottom())
+//                ((InputMethodManager) this.getSystemService(Context.INPUT_METHOD_SERVICE)).hideSoftInputFromWindow((this.getWindow().getDecorView().getApplicationWindowToken()), 0);
+//        }
+//        return super.dispatchTouchEvent(ev);
+//    }
+
+    public void hideKeyboard() {
+        try {
+            InputMethodManager inputManager = (InputMethodManager) this.getSystemService(Context.INPUT_METHOD_SERVICE);
+            inputManager.hideSoftInputFromWindow(this.getCurrentFocus().getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
+        } catch (NullPointerException e) {
+            Log.d("키보드","활성화 전");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -180,16 +206,25 @@ public class ChatActivity extends AppCompatActivity {
                 $RecyclerView.smoothScrollToPosition($Adapter.getItemCount());
             }
         });
-
+        $EditText.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                if (motionEvent.getAction() == MotionEvent.ACTION_UP) {
+                    closeEmoji();
+                }
+                return false;
+            }
+        });
         $EditText.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
             }
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-            }
 
+            }
             @Override
             public void afterTextChanged(Editable s) {
                 if (s.length() > 0) {
@@ -221,15 +256,6 @@ public class ChatActivity extends AppCompatActivity {
                 }
 
                 sendMsg(param);
-
-//                channel.sendMessage(param, new ChannelCallback() {
-//                    @Override
-//                    public void callback(Object o, VChatCloudException e) {
-//                        if (e != null) {
-//                            Log.d(TAG,"메시지 전송오류");
-//                        }
-//                    }
-//                });
                 $EditText.setText("");
             }
         });
@@ -237,10 +263,10 @@ public class ChatActivity extends AppCompatActivity {
         $EmojiButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Log.d("$EmojiButton", "이모지?" + emojiFlag);
                 if (emojiFlag) {
                     closeEmoji();
                 } else {
+                    hideKeyboard();
                     openEmoji();
                 }
             }
@@ -256,18 +282,6 @@ public class ChatActivity extends AppCompatActivity {
         // 채팅 화면 컨트롤
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_UNSPECIFIED);
     }
-
-    public void hideKeyboard() {
-        try {
-            InputMethodManager inputManager = (InputMethodManager) this.getSystemService(Context.INPUT_METHOD_SERVICE);
-            inputManager.hideSoftInputFromWindow(this.getCurrentFocus().getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
-        } catch (NullPointerException e) {
-            Log.d("키보드","활성화 전");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
     public static FragmentManager getEmojiManager() {
         return fragmentManager;
     }
@@ -290,8 +304,6 @@ public class ChatActivity extends AppCompatActivity {
         $EmojiButton.setImageResource(R.drawable.ic_round_mood_24_active);
         transaction = fragmentManager.beginTransaction();
         transaction.replace(R.id.frameLayout, emojiFragment).commitAllowingStateLoss();
-
-        Log.d("openEmoji", "오픈되었나?");
     }
 
     private void closeEmoji() {
@@ -299,8 +311,6 @@ public class ChatActivity extends AppCompatActivity {
         $EmojiButton.setImageResource(R.drawable.ic_round_mood_24);
         transaction = fragmentManager.beginTransaction();
         transaction.remove(emojiFragment).commitAllowingStateLoss();
-
-        Log.d("closeEmoji", "종료?");
     }
 
     private void openGallery() {
@@ -465,6 +475,7 @@ public class ChatActivity extends AppCompatActivity {
                 }
                 $Title.setText(channel.getRoomName());
                 PreferenceManager.setString(getApplicationContext(),"nickName", nick_name);
+                PreferenceManager.setInt(getApplicationContext(),"nickIcon", nick_icon_index);
             }
         });
 
@@ -482,7 +493,7 @@ public class ChatActivity extends AppCompatActivity {
                 messageExposure(msg, false);
             }
 
-            public void onNotifyWhisper(JSONObject data) { // 귓속말 이벤트
+            public void onNotifyWhisper(JSONObject data) { // 귓속말 이벤트 ( 자기자신 )
                 Log.d("이벤트 수신", data.toJSONString());
                 Message msg = new Message(data);
                 msg.setType("whisper");
@@ -512,71 +523,70 @@ public class ChatActivity extends AppCompatActivity {
                     messageExposure(msg, false);
                 }
             }
-            public void onPersonalWhisper(JSONObject data) {
-                Log.d("여기가 들어오나", "!!!");
+            public void onPersonalWhisper(JSONObject data) { // 개인 귓속말 이벤트
                 Message msg = new Message(data);
                 msg.setType("preWhisper");
 
                 messageExposure(msg, false);
             }
 
-            public void onPersonalKickUser(JSONObject data) { //
+            public void onPersonalKickUser(JSONObject data) { // 개인 추방 이벤트
                 Message msg = new Message(data);
                 msg.setType("preKick");
 
                 messageExposure(msg, false);
             }
 
-            public void onPersonalUnkickUser(JSONObject data) {
+            public void onPersonalUnkickUser(JSONObject data) { // 개인 추방 해제 이벤트
                 Message msg = new Message(data);
                 msg.setType("preUnKick");
 
                 messageExposure(msg, false);
             }
 
-            public void onPersonalMuteUser(JSONObject data) {
+            public void onPersonalMuteUser(JSONObject data) { // 개인 음소거 이벤트
                 Message msg = new Message(data);
                 msg.setType("preMute");
 
                 messageExposure(msg, false);
             }
 
-            public void onPersonalUnmuteUser(JSONObject data) {
+            public void onPersonalUnmuteUser(JSONObject data) { // 개인 음소거 해제 이벤트
                 Message msg = new Message(data);
                 msg.setType("perUnMute");
 
                 messageExposure(msg, false);
             }
 
-            public void onPersonalDuplicateUser(JSONObject data) {
+            public void onPersonalDuplicateUser(JSONObject data) { // 중복 접속 이벤트
                 Message msg = new Message(data);
                 msg.setType("duplicate");
 
                 messageExposure(msg, false);
             }
 
-            public void onNotifyKickUser(JSONObject data) {
+            public void onNotifyKickUser(JSONObject data) { // 추방 이벤트
                 Message msg = new Message(data);
                 msg.setType("kick");
 
                 messageExposure(msg, false);
             }
 
-            public void onNotifyUnkickUser(JSONObject data) {
+            public void onNotifyUnkickUser(JSONObject data) { // 추방 해제 이벤트
                 Message msg = new Message(data);
                 msg.setType("unKick");
 
                 messageExposure(msg, false);
             }
 
-            public void onNotifyMuteUser(JSONObject data) {
+            public void onNotifyMuteUser(JSONObject data) { // 음소거 이벤트
                 Message msg = new Message(data);
                 msg.setType("mute");
 
                 messageExposure(msg, false);
             }
 
-            public void onNotifyUnmuteUser(JSONObject data) {
+            public void onNotifyUnmuteUser(JSONObject data) { // 음소거 해제 이벤트
                 Message msg = new Message(data);
                 msg.setType("unMute");
 
@@ -631,7 +641,6 @@ public class ChatActivity extends AppCompatActivity {
     }
 
     public void messageExposure(Message message, final boolean sendScroll) {
-        int profile_index = 0;
         if (ChatActivity.notificationFlag && (message.getMimeType().equalsIgnoreCase("text"))) {
             ++msgId;
 //            PushCallDisplay();
@@ -660,11 +669,13 @@ public class ChatActivity extends AppCompatActivity {
             Ringtone ringtone = RingtoneManager.getRingtone(getApplicationContext(),defaultSoundUri);
             ringtone.play();
 
+            ProfileRescource.setIndex(0);
+
             if (message.getMessageType() != null) {
-                profile_index = Integer.parseInt((String) message.getMessageType().get("profile")) - 1;
+                ProfileRescource.setIndex(Integer.parseInt((String) message.getMessageType().get("profile")) - 1);
             }
 
-            Bitmap bitmap = BitmapFactory.decodeResource(getResources(), MainActivity.ProfileInfo(profile_index));
+            Bitmap bitmap = BitmapFactory.decodeResource(getResources(), ProfileRescource.getProfile());
             Log.d(TAG, message.getClientKey());
             builder
                     .setContentTitle(message.getNickName())
@@ -804,8 +815,8 @@ public class ChatActivity extends AppCompatActivity {
         $RecyclerView.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View view, MotionEvent motionEvent) {
-                hideKeyboard();
                 closeEmoji();
+                hideKeyboard();
                 return false;
             }
         });
@@ -814,7 +825,6 @@ public class ChatActivity extends AppCompatActivity {
 
             @Override
             public void onUserMessageItemLongClick(Message message, int position) {
-                Log.d("길게","눌렀냥");
                 Log.d("message >> ", message.toString());
 
                 AlertDialog.Builder ad = new AlertDialog.Builder(ChatActivity.this);

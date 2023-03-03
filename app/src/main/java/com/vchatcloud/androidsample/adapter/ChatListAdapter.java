@@ -24,12 +24,12 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.vchatcloud.androidsample.ChatActivity;
-import com.vchatcloud.androidsample.MainActivity;
 import com.vchatcloud.androidsample.Message;
 import com.vchatcloud.androidsample.R;
 import com.vchatcloud.androidsample.photoView.ViewPagerActivity;
 import com.vchatcloud.androidsample.resourse.Constant;
 import com.vchatcloud.androidsample.resourse.EmojiRescourse;
+import com.vchatcloud.androidsample.resourse.ProfileRescource;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -168,6 +168,13 @@ public class ChatListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
                 case "leave":
                     return VIEW_TYPE_USER_LEAVE;
                 case "notice":
+                case "kick" :
+                case "unKick" :
+                case "mute" :
+                case "unMute" :
+                case "duplicate" :
+                case "preMute" :
+                case "perUnMute" :
                     return VIEW_TYPE_NOTICE_MESSAGE;
                 case "emoji_img":
                     if (ChatActivity.deviceUuid.equalsIgnoreCase($Message.getClientKey())) {
@@ -330,12 +337,12 @@ public class ChatListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
             messageText.setText(message.getMessage());
             timeText.setText(msgDt);
 
-            int profile_index = 0;
+            ProfileRescource.setIndex(0);
             if (message.getMessageType() != null) {
-                profile_index = Integer.parseInt((String) message.getMessageType().get("profile")) - 1;
+                ProfileRescource.setIndex(Integer.parseInt((String) message.getMessageType().get("profile")) -1);
             }
 
-            profileImage.setImageResource(MainActivity.ProfileInfo(profile_index));
+            profileImage.setImageResource(ProfileRescource.getProfile());
             profileImage.setClipToOutline(true);
 
             if (oldDateFlag) {
@@ -372,15 +379,14 @@ public class ChatListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
         void bind(Context $Context, final Message message, final int position, String msgDt) {
             nicknameText.setText(message.getNickName());
 
-            int profile_index = 0;
-            if (message.getMessageType() != null) {
-                profile_index = Integer.parseInt((String) message.getMessageType().get("profile")) - 1;
-            }
-
             // 내부 리소스중 이모지 정보 로딩
             emojiImage.setImageResource(EmojiRescourse.getUrlToEmojiInfo(message.getMessage()));
 
-            profileImage.setImageResource(MainActivity.ProfileInfo(profile_index));
+            ProfileRescource.setIndex(0);
+            if (message.getMessageType() != null) {
+                ProfileRescource.setIndex(Integer.parseInt((String) message.getMessageType().get("profile")) -1);
+            }
+            profileImage.setImageResource(ProfileRescource.getProfile());
             profileImage.setClipToOutline(true);
         }
     }
@@ -417,10 +423,12 @@ public class ChatListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
         void bind(Context $Context, final Message message, final int position, String msgDt) {
             nicknameText.setText(message.getNickName());
 
-            int profile_index = 0;
+            ProfileRescource.setIndex(0);
             if (message.getMessageType() != null) {
-                profile_index = Integer.parseInt((String) message.getMessageType().get("profile")) - 1;
+                ProfileRescource.setIndex(Integer.parseInt((String) message.getMessageType().get("profile")) -1);
             }
+            profileImage.setImageResource(ProfileRescource.getProfile());
+            profileImage.setClipToOutline(true);
 
             try {
                 allVisivilityOff();
@@ -450,7 +458,7 @@ public class ChatListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
                     case "WEBP":
                         imageLayout.setVisibility(View.VISIBLE); // 이미지 뷰 활성화
 
-                        float width = MainActivity.getAppMetrics().widthPixels / MainActivity.getAppMetrics().density;
+//                        float width = MainActivity.getAppMetrics().widthPixels / MainActivity.getAppMetrics().density;
 
                         try {
                             String url = Constant.BASE + Constant.LOADFILE + "?fileKey=" + object.get("id");
@@ -623,8 +631,6 @@ public class ChatListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            profileImage.setImageResource(MainActivity.ProfileInfo(profile_index));
-            profileImage.setClipToOutline(true);
         }
     }
 
@@ -681,4 +687,5 @@ public class ChatListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
             messageText.setText(message.getMessage());
         }
     }
+
 }

@@ -2,20 +2,20 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
-    android:layout_width="70dp"
-    android:layout_height="70dp"
+    android:layout_width="110dp"
+    android:layout_height="110dp"
     android:background="#FFFFFF">
     <LinearLayout
         android:id="@+id/profile_layout"
         android:layout_margin="5dp"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:background="@drawable/profile_img_back_ground" >
         <ImageButton
-            android:layout_margin="5dp"
+            android:layout_margin="10dp"
             android:id="@+id/profile_image"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:scaleType="centerCrop"
             android:background="@drawable/profile_img_back_ground"
             android:src="@drawable/profile_img_1"
